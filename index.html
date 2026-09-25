@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#142c30"><title>Thesis Atlas · Sijan Regmi</title><link rel="stylesheet" href="style.css"><script defer src="figures.js"></script><script defer src="data.js"></script><script defer src="app.js"></script></head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<aside class="sidebar">
+ <a class="brand" href="#home"><span class="brand-icon">π</span><span>Thesis Atlas<small>SIJAN REGMI · 2026</small></span></a>
+ <div class="nav-label">YOUR DISSERTATION</div><nav id="chapters" aria-label="Chapters"></nav>
+ <div class="sidebar-bottom"><span class="status-dot"></span> Thesis loaded <small>Ohio University · Physics</small><button id="full-pdf" class="sidebar-source">Open complete thesis <span>↗</span></button></div>
+</aside>
+<div class="workspace">
+ <header class="toolbar"><div class="toolbar-title">RESEARCH EXPLORER <span>/</span> sPHENIX</div><div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a topic or figure…" aria-label="Search topics and figures" autocomplete="off"><kbd>/</kbd><div id="search-results" hidden></div></div></header>
+ <main id="content" tabindex="-1">
+  <div class="path-row"><nav id="breadcrumbs" aria-label="Breadcrumb"></nav><button id="up" class="quiet" hidden>↑ Up one level</button></div>
+  <div id="heading"></div>
+  <div class="view-bar"><div class="view-tabs" role="group" aria-label="Choose layout"><button data-view="explore" aria-pressed="true">▦ <span>Explore</span></button><button data-view="outline" aria-pressed="false">☷ <span>Outline</span></button><button data-view="figures" aria-pressed="false">▧ <span>Figures</span></button></div><span id="view-hint"></span></div>
+  <section id="view" aria-label="Thesis content"></section>
+  <footer><span>Measurement of π⁰ and η meson production · √s = 200 GeV</span><span>Selected content · Original figures · Source-linked</span></footer>
+ </main>
+</div>
+<dialog id="figure-dialog"><div class="dialog-bar"><div><small id="figure-number"></small><h2 id="figure-title"></h2></div><button id="figure-zoom" class="quiet">Zoom in</button><button class="close" data-close="figure-dialog" aria-label="Close figure">×</button></div><div class="image-stage"><img id="figure-image" alt=""></div><div class="figure-bottom"><p id="figure-caption"></p><button id="figure-source" class="primary">Read source page ↗</button></div></dialog>
+<dialog id="pdf-dialog"><div class="dialog-bar"><div><small>ORIGINAL DISSERTATION</small><h2 id="pdf-title">Thesis source</h2></div><div class="pdf-actions"><a id="pdf-tab" target="_blank" rel="noopener">Open in new tab ↗</a><button class="close" data-close="pdf-dialog" aria-label="Close source PDF">×</button></div></div><div class="reader-controls"><button id="prev-page" aria-label="Previous thesis page">← Previous</button><label>Page <input id="page-number" type="number" min="1" max="201" value="1"> <span>of 201</span></label><button id="next-page" aria-label="Next thesis page">Next →</button></div><div class="reader-stage"><img id="source-page" alt=""></div></dialog>
+</body></html>
