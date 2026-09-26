@@ -1,4 +1,4 @@
-# Thesis Atlas
+# Thesis sPHENIX
 
 An offline, layered explorer of Sijan Regmi's 2026 Ohio University dissertation.
 
